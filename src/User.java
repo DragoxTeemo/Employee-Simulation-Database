@@ -1,8 +1,8 @@
 public class User {
-    private int userID;
-    private String username;
-    private String role; // HR_ADMIN or EMPLOYEE
-    private Integer empID;
+    private final int userID;
+    private final String username;
+    private final String role; // HR_ADMIN or EMPLOYEE
+    private final Integer empID;
 
     public User(int userID, String username, String role, Integer empID) {
         this.userID = userID;
