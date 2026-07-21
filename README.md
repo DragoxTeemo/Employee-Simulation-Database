@@ -4,28 +4,6 @@ A Java-based Data Access Object (DAO) application featuring Role-Based Access Co
 
 ---
 
-## System Architecture
-
-The project follows a standard multi-tier design separating data access, core models, external integrations, and user interfaces:
-
-├── models/
-│   ├── User.java                   # Access levels and authorization attributes
-│   ├── Employee.java               # Core employee domain entity
-│   └── Address.java                # Relational address data structure
-├── dao/
-│   ├── UserDAO.java                # Authentication logic
-│   └── EmployeeDAO.java            # Employee CRUD operations and payroll aggregations
-├── services/
-│   ├── Security.java               # Cryptographic utilities and password generation
-│   └── PasswordRotationService.java # Scheduled SMTP automated password rotation
-├── config/
-│   └── DatabaseConfig.java         # JDBC connection manager
-└── entrypoints/
-├── EmployeeTestMyVersion.java  # Interactive portal CLI interface
-└── SoroTest.java               # Secondary interactive dashboard shell
-
----
-
 ## Key Features
 
 * **Role-Based Access Control (RBAC):**
