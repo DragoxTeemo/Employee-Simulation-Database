@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConfig {
-    private static final String JDBC_URL = "jdbc:mysql://sql3.freesqldatabase.com:3306/sql3822005";
-    private static final String DB_USER = "sql3822005";
-    private static final String DB_PASS = "e8SxrVQIAP";
+    private static final String JDBC_URL = "";
+    private static final String DB_USER = "";
+    private static final String DB_PASS = "";
 
     public static Connection getConnection() throws SQLException {
         try {
